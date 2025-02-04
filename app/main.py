@@ -27,8 +27,6 @@ def main():
             string_object = decompressed.decode("utf-8")
             current_content = string_object[8:].strip()
             print(string_object[8:].strip(),end="")
-    elif command == "hash-object" and sys.argv[2] == "-w" :
-            print(1)
     else:
         raise RuntimeError(f"Unknown command #{command}")
 
