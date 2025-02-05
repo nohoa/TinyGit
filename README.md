@@ -36,3 +36,20 @@ cat-file implementation :
 
 ```
 
+list_tree implementation : 
+
+If list full of tree object components : 
+
+```
+
+../your_program.sh tree-list  [TREE_SHA_code]
+
+```
+
+If list only the name  of tree object components : 
+
+```
+
+../your_program.sh tree-list --name-only [TREE_SHA_code]
+
+```
